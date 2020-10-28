@@ -1,3 +1,4 @@
+  
 *{
    padding: 0px;
     margin: 0px;
@@ -5,7 +6,8 @@
 
 body
 {
- position: absolute;
+    width: auto;
+ position: relative;
 height: 3072px;
 background: #FFFFFF ; 
 }
@@ -24,7 +26,7 @@ background: rgba(0, 0, 0, 0.8) ;
 */
 /*logo*/
 .logo
-{
+
 height: 40px;
     padding: 2px 10px;
 }
@@ -32,11 +34,12 @@ height: 40px;
 /*navigation*/
 .header
 {
+   
     height :100vh;
 }
 .navbar-style
 {
-    width: auto;
+    
 padding: 10px 10px;
     font-family: sans-serif;
     text-decoration-color: #FFFFFF; 
@@ -628,6 +631,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
 	
 		#slider{
+            
 			position: absolute;
             
 			 left : 0;	
@@ -674,5 +678,3 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
 
 		</style>
-
-
