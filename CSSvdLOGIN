@@ -1,0 +1,808 @@
+*{
+   padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    width: auto;
+ position: relative;
+height: 3072px;
+background: #FFFFFF ; 
+}
+@media screen and (max-width:900px)
+{
+body
+{
+    height: 6144px;
+background: rgba(0, 0, 0, 0.8) ; 
+}    
+}
+/*navigation bar starts
+#E11717
+#FFFFFF
+#FBC314
+*/
+/*logo*/
+.logo
+
+height: 40px;
+    padding: 2px 10px;
+}
+
+/*navigation*/
+.header
+{
+   
+    height :100vh;
+}
+.navbar-style
+{
+    
+padding: 10px 10px;
+    font-family: sans-serif;
+    text-decoration-color: #FFFFFF; 
+    background-color: #E11717;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+}
+.icon-bar
+{
+background: #FBC314;
+}
+li a
+{ 
+  color: #FFFFFF;  
+}
+li
+{
+    top: 10px;
+}
+/*navigation bar ends*/
+/*content*/
+.big-text
+{
+  
+    font-size: 16px;
+    margin: 0px 0px 0px 40px ;
+    color: #1880FA;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: sans-serif; 
+    
+}
+.head
+{
+
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 0 40px 0 ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a.btn
+{
+   margin: 0 40px 0 ;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E11717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a
+{
+   color: #ffffff; 
+}
+.banner-info
+{
+    position: absolute;
+    top: 8%;
+    left:28%;
+    margin: 50px 1px 1px 30px;
+}
+/* Slideshow */
+
+    /*slider ends  */
+
+
+
+/* footer start*/
+
+p{
+    color: aliceblue;
+    line-height: 25px;
+}
+h2
+{
+    color: aliceblue;
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 10px 0px 13px 0px;
+}
+.footer-top
+{
+    background: #E11717;
+    padding: 40px 0px 0px 0px ;
+}
+.lg
+{
+padding: 50px 0 30px 0px;
+    width:220px;
+}
+.segment-one
+{
+    margin: 0px 5px 0 ;
+    width: 300px;
+}
+p
+{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 14px
+    
+}
+.segment-two
+{
+   margin: 0px 5px 0 ; 
+    width: 300px;
+}
+.segment-two a
+{
+    text-decoration: none;
+    color:#FFE600; 
+    font-size: 16px;
+}
+.segment-three
+{
+      margin: 0px 5px 0 ;
+    width: 250px;
+}
+.segment-three a
+{
+    font-size: 16px;
+    text-decoration: none;
+}
+.segment-three ul li
+{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    line-height: 41px;
+}
+.segment-four
+{
+    margin: 0px 19px 0px ;
+   
+    width: 250px;
+}
+.segment-four a
+{
+    background:#FFE600;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-four i
+{
+    font-size: 20px;
+    color:  #E70103;
+    padding: 10px 12px;
+}
+.footer-bottom-text
+{
+    text-align: center;
+    line-height: 75px;
+    font-family: "Muli",sans-serif;
+     background: #E70103;
+}
+.footer
+{
+
+display: block;
+    position: absolute;
+     width: 100%;
+    bottom:0;
+    right: 0;
+    
+}
+@media screen and (max-width:900px)
+{
+{
+
+display: block;
+    position: absolute;
+     max-width:100%;
+    bottom:0;
+    
+}      
+}
+/* footer ends*/
+
+/*starts*/
+@media screen and (max-width:900px)
+{
+.card-deck
+{
+   padding:  0px 10px 10px 80px;
+    position: absolute;
+    display: block;
+    top: 60%;
+
+    
+}      
+}
+.card-deck
+{
+   padding:  0px 10px 10px 50px;
+    position: absolute;
+    display: block;
+    top: 52%;
+    height: 150%vh;
+    
+}
+
+
+.segment-1
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-2
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-3
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic1
+{
+    padding: 20px 0 14px 0;
+   width: 220px;  
+}
+.pic2
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.pic3
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.card-text
+{
+    padding: 1px 0 1px 0; 
+    font=size:22px;
+    color: #E70103
+}
+.segment-3 p
+{
+    color: #000;
+}
+
+.segment-2 p
+{
+    color: #000;
+}
+
+.segment-1 p
+{
+    color: #000;
+}
+.segment-3 a
+{
+    color: #E70103;
+}
+.segment-2 a
+{
+    color: #E70103;
+}
+.segment-1 a
+{
+    color: #E70103;
+}
+.btn-sec
+{
+position: absolute;
+    left: 38%;
+    top: 100px;
+    
+}
+.Acc h2{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+    
+/*ends*/
+
+/*option cards starts*/
+.options h2 {
+
+top: 11.47%vw;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.options p {
+top: 13.47%vw;
+font-family: "Muli",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+color: #000;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Collections*/
+.card-deck-sec
+{
+    display: block;
+     padding: 10px 10px 100px 80px;
+    position: absolute;
+    top: 20%;
+    height :150vh;
+   
+}
+.card-deck-sec a 
+{
+    text-decoration-color: aqua;
+    color: #E70103;
+    
+}
+.segment-on
+{
+  margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+}
+.segment-tw
+{
+  margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+}
+.segment-thr
+{
+    margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+}
+.segment-fou
+{
+   margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+}
+.segment-fiv
+{
+  margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+}
+.segment-si
+{
+    margin: 20px 30px 20px ;
+    background: #FBC314;
+   height: 340px;
+    width: 280px;
+    border-radius: 10%;
+  
+}
+.pic11
+{
+    margin-top: 10px;
+     height: 250px;
+    width: 250px;
+      border-radius: 10%;
+}
+.pic21
+{
+     margin-top: 10px;
+      height: 250px;
+    width: 250px;
+      border-radius: 10%;
+}
+.pic31
+{
+ margin-top: 10px;
+      height: 250px;
+    width: 250px;
+      border-radius: 10%;
+}
+.pic41
+{
+   
+       margin-top: 10px;
+    width: 250px;
+      border-radius: 10%;
+}
+.pic51
+{
+     margin-top: 10px;
+      height: 250px;
+    width: 250px;
+      border-radius: 10%;
+}
+.pic61
+{
+ margin-top: 10px;
+      height: 250px;
+    width: 250px;
+      border-radius: 10%;
+}
+
+@media screen and (max-width:900px)
+{
+.card-deck-sec
+{
+    display: block;
+     padding: 10px 0px 100px 0px;
+    position: absolute;
+
+   
+} 
+.footdesign1
+    {
+        display: none;
+    }
+.segment-on
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-tw
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-thr
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fou
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fiv
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-si
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic11
+{
+    padding: 10px 0 0 0;
+}
+.pic21
+{
+    padding: 10px 0 0 0;
+}
+.pic31
+{
+    padding: 10px 0 0 0;
+}
+.pic41
+{
+    padding: 10px 0 0 0;
+}
+.pic51
+{
+    padding: 10px 0 0 0;
+}
+.pic61
+{
+    padding: 10px 0 0 0;
+}
+    
+}
+
+/*option cards ends*/
+/*products starts*/
+@media screen and (max-width:900px)
+{
+.card-deck-thr
+{
+    display: block;
+  padding: 100px 0px 100px 0px;
+    position: absolute;
+    top: 85%;
+   
+
+    
+}      
+}
+.card-deck-thr
+{
+    display: block;
+  padding: 100px 10px 100px 1px;
+    position: absolute;
+    top: 67%;
+    height :100vh;
+
+    
+}   
+.segment-12
+{
+  margin: 10px 125px 10px 80px ;
+     width: 300px;
+    height: 300px;
+}
+.segment-13
+{
+  margin: 10px 0px 100px 60px;
+     width: 400px;
+    height: 400px;
+}
+.pic111
+{
+justify-content: center;
+    padding: 10px 0 0 0;
+    width: 350px;
+    height: 350px;
+}  
+.Products h2
+{
+  
+justify-content: center;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-text-one
+{
+    color: #000000;
+}
+
+/*products ends*/
+
+  <style type="text/css">
+
+		*{
+			overflow: hidden;
+
+		}
+	
+		#slider{
+            
+			position: absolute;
+            
+			 left : 0;	
+        }
+        #slider figure{
+	position: relative;
+	width: 300%;
+	margin:0px;
+            left: 0;
+	animation: 15s slider infinite;
+}
+        @keyframes slider{
+			0%{
+                left: 0%;
+			}
+			20%{
+				left: 0%;
+			}
+			25%{
+				left:-100%;
+			}
+			45%{
+				left: -100%;
+			}
+			50%{
+				left: -200%;
+			}
+
+			70%{
+				left: -200%;
+			}
+
+75%{
+				left: -100%;
+			}
+			95%{
+				left: -100%;
+			}
+
+
+			100%{
+				left: -100%;
+			}
+		}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #2e78b4;
+    color: white;
+    padding: 7px 20px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+ 
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  p{
+      color: #000;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  span.signup {
+    float: left;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  h5{
+      color: rgb(0, 0, 0);
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+   
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+		</style>
